@@ -1,0 +1,36 @@
+{
+  "name": "@tools/linters",
+  "version": "0.0.12",
+  "main": "index.js",
+  "files": [
+    "eslint"
+  ],
+  "sideEffects": false,
+  "scripts": {
+    "publish": "yarn npm publish --tolerate-republish"
+  },
+  "publishConfig": {
+    "registry": "https://gitlab.croff.dev/api/v4/projects/22/packages/npm/"
+  },
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "6.1.0",
+    "@typescript-eslint/parser": "6.1.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-typescript": "17.1.0",
+    "eslint-config-prettier": "8.8.0",
+    "eslint-import-resolver-typescript": "3.5.5",
+    "eslint-plugin-import": "2.27.5",
+    "eslint-plugin-jsx-a11y": "6.7.1",
+    "eslint-plugin-mobx": "0.0.9",
+    "eslint-plugin-prettier": "5.0.0",
+    "eslint-plugin-react": "7.32.2",
+    "eslint-plugin-react-hooks": "4.6.0",
+    "prettier-plugin-sorted": "2.0.0",
+    "stylelint-config-property-sort-order-smacss": "9.0.0",
+    "stylelint-order": "6.0.1"
+  },
+  "devDependencies": {
+    "eslint-plugin-english-comments": "file:./eslint/plugins/english-comments"
+  },
+  "license": "MIT"
+}

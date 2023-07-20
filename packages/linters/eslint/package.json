@@ -1,0 +1,9 @@
+{
+  "name": "@tools/linters/eslint",
+  "version": "0.0.1",
+  "main": "index.js",
+  "module": "index.js",
+  "jsnext:main": "index.js",
+  "sideEffects": false,
+  "license": "MIT"
+}

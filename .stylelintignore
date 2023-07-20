@@ -1,0 +1,16 @@
+# Artifacts
+dist
+storybook-static
+coverage
+icons
+bundle-report
+
+# Scripts
+bin
+scripts
+analyze
+
+# Configs
+.eslintrc.js
+prettier.config.js
+lint-staged.config.js

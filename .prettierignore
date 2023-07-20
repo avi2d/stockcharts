@@ -1,0 +1,5 @@
+.storybook
+dist
+storybook-static
+coverage
+icons
